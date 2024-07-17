@@ -1,0 +1,179 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css"></link>
+  </head>
+  <body>
+    <h1 id="title">Registration Form</h1>
+      <p id="description">Be a Pokemon Master! Fill out the form below.</p>
+    <div class="record">
+    <form id="survey-form" method="post" action="https://cloudbykristine.com">
+      <fieldset>
+        <legend>About You</legend>
+        <label id="name-label">What's your name? <input id="name" required type="text" placeholder="Enter your name">
+        </label>
+        <label id="email-label">How do we reach you?<input id="email" required type="email" placeholder="Enter your email"></label>
+        <label id="number-label">How young are you? (in years):<input id="number" required type="number" min="6" max="120" pattern="[6-120]" placeholder="Enter your age"></label>
+      </fieldset>
+      <fieldset>
+        <legend>Pokemon Profile (required)</legend>
+        <label>Do you have an existing Pokemon?
+          <div class="choice">
+            <span class="inline">
+              <input value="1" name="badge" type="radio" >Yuppie!
+            </span>
+            <span class="inline">
+              <input value="0" name="badge" type="radio" checked>Nope!
+            </span>
+          </div>
+        </label>
+        
+        <label>Choose your Pokemon Backpack:
+            <div class="choice">
+              <span class="inline">
+                <input checked value="1" type="radio" name="backpack">Basic
+              </span> 
+              <span class="inline">
+                <input value="2" type="radio" name="backpack">Evolved
+              </span>
+            </div>
+        </label>
+
+        <label>What's your favorite type of Pokemon?
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Normal</option>
+            <option value="2">Fire</option>
+            <option value="3">Water</option>
+            <option value="4">Grass</option>
+            <option value="5">Flying</option>
+            <option value="6">Fighting</option>
+            <option value="7">Poison</option>
+            <option value="8">Electric</option>
+            <option value="9">Ground</option>
+            <option value="10">Rock</option>
+            <option value="11">Psychic</option>
+            <option value="12">Ice</option>
+            <option value="13">Bug</option>
+            <option value="14">Ghost</option>
+            <option value="15">Steel</option>
+            <option value="16">Dragon</option>
+            <option value="17">Dark</option>
+            <option value="18">Fairy</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Your Big Why</legend>
+        
+        <label>Why do you want to be a Pokemon Master?
+          <textarea id="myWhy" name="bio" rows="3" cols="30" placeholder="I want to catch Pikachu..."></textarea>
+        </label>
+        </fieldset>
+        <fieldset>
+        <legend>Email Subscription</legend>
+        
+          <p>Would you like to subscribe to our Pokemon Newsletter?</p>
+          <div class="notification">
+          <label for="notification">Yes, Weekly!
+            <input value="1" id="notification" type="checkbox" required name="notification"/>
+            </label>
+          <label for="notification">Yes, Monthly!
+            <input value="2" id="notification" type="checkbox" required name="notification"/>
+            </label>
+        </div>
+        </fieldset>
+        
+        <input id="submit" type="submit" value="Submit"/>
+        
+    </form>
+    
+    <div/>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d125df43-37f9-4450-a601-50d3aa7fa501/d2u0ums-0511d594-f643-477b-b285-6af6eef6faae.jpg/v1/fill/w_1112,h_719,q_70,strp/chu_by_tsaoshin_d2u0ums-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODI4IiwicGF0aCI6IlwvZlwvZDEyNWRmNDMtMzdmOS00NDUwLWE2MDEtNTBkM2FhN2ZhNTAxXC9kMnUwdW1zLTA1MTFkNTk0LWY2NDMtNDc3Yi1iMjg1LTZhZjZlZWY2ZmFhZS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.MONlYk5vkwXEhTDicSpwTY0PGz4w6GosPfeNUL6dRSE');
+  background-size: cover; /* Optional: ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Optional: prevents the image from repeating */
+  background-position: center center; /* Optional: centers the image */
+  font-family: Monaco, Sans;
+  font-size: 16px;
+  color: rgb(255,255,255);
+}
+
+h1, p{
+  text-align: center;
+}
+
+.record {
+  background-color: rgba(50,50,0,0.5);
+  width: 80vw;
+  max-width: 600px;
+  min-width: 400px;
+  margin: auto;
+}
+
+label {
+  display: block;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: auto;
+  padding: 2rem 0;
+ }
+
+fieldset {
+  padding: 1rem;
+  margin: 0.5em;
+}
+
+legend{
+  color: orange;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  font-size: 1rem;
+  color: black;
+}
+
+.choice {
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+  width: unset;
+}
+
+.notification {
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+** end of undefined **
+

@@ -1,0 +1,73 @@
+body {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d125df43-37f9-4450-a601-50d3aa7fa501/d2u0ums-0511d594-f643-477b-b285-6af6eef6faae.jpg/v1/fill/w_1112,h_719,q_70,strp/chu_by_tsaoshin_d2u0ums-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODI4IiwicGF0aCI6IlwvZlwvZDEyNWRmNDMtMzdmOS00NDUwLWE2MDEtNTBkM2FhN2ZhNTAxXC9kMnUwdW1zLTA1MTFkNTk0LWY2NDMtNDc3Yi1iMjg1LTZhZjZlZWY2ZmFhZS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.MONlYk5vkwXEhTDicSpwTY0PGz4w6GosPfeNUL6dRSE');
+  background-size: cover; /* Optional: ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Optional: prevents the image from repeating */
+  background-position: center center; /* Optional: centers the image */
+  font-family: Monaco, Sans;
+  font-size: 16px;
+  color: rgb(255,255,255);
+}
+
+h1, p{
+  text-align: center;
+}
+
+.record {
+  background-color: rgba(50,50,0,0.5);
+  width: 80vw;
+  max-width: 600px;
+  min-width: 400px;
+  margin: auto;
+}
+
+label {
+  display: block;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: auto;
+  padding: 2rem 0;
+ }
+
+fieldset {
+  padding: 1rem;
+  margin: 0.5em;
+}
+
+legend{
+  color: orange;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  font-size: 1rem;
+  color: black;
+}
+
+.choice {
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+  width: unset;
+}
+
+.notification {
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}

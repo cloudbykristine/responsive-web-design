@@ -9,6 +9,8 @@ This repository contains examples of exercises done from #FreeCodeCamp
 - [Hands-on No.3 Learn CSS Colors by Building a Set of Colored Markers](#Hands-on-No.3)
 - [Hands-on No.4 Learn HTML by Building a Registration Form](#Hands-on-No.4)
 - [Certification Project No.1 Creating your Survey Form](#Project-No.1)
+- [Hands-on No.5 Learn the CSS Box Model by Rothko Painting](#Hands-on-No.5)
+- [Hands-on N]
 
 #### Hands-on No.1 Learn HTML by Building a Cat Photo App
 This beginner hands-on explores the use of HTML tags to add photos, buttons, and other elements to your webpage.

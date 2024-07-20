@@ -12,6 +12,7 @@ This repository contains examples of exercises done from #FreeCodeCamp
 - [Hands-on No.5 Learn the CSS Box Model by Rothko Painting](#Hands-on-No.5)
 - [Hands-on N0.6 Learn CSS Flexbox by Building a Photo Gallery](#Hands-on-No-6)
 - [Hands-on N0.7 Learn Typography by Building a CSS Label](#Hands-on-No-7)
+- [Hands-on N0.8 Learn Accessibility by Building a Quiz](#Hands-on-No-8)
 
 #### Hands-on No.1 Learn HTML by Building a Cat Photo App
 This beginner hands-on explores the use of HTML tags to add photos, buttons, and other elements to your webpage.
